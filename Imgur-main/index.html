@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imgur Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div>
+      <div id="navbar">
+        <div id="imgurlogo">
+          <img src="./images/imgur.png" />
+        </div>
+        <div>
+          <button id="newpostbtn">
+            <span class="material-icons-outlined"> add_box </span>
+            <span class="newposttext">New Post</span>
+          </button>
+        </div>
+        <div>
+          <input
+            placeholder="Images, #tags, @users of my!"
+            class="inputnavbar"
+            id="inputsearch"
+          />
+        </div>
+        <div onclick="debouncing()">
+          <span class="material-icons-outlined searchicon"> search </span>
+        </div>
+        <div>
+          <button class="goaddfreebtn">Go Ad-Free</button>
+        </div>
+      </div>
+      <div id="cardsexplore">
+        <div>
+          <h2>Did you know a cat has 32 muscles in each ear?</h2>
+        </div>
+        <div id="cardsDiv">
+          <div id="tagstop">
+            <div><h3>EXPLORE TAGS</h3></div>
+            <div><h3>MORE TAGS +</h3></div>
+          </div>
+          <div id="subcarddiv">
+            <div>
+              <img src="images/sadf01.png" />
+              <p class="cardTitle">Hydraulic Press</p>
+              <p class="cardPostNo">267 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf02.jpg" />
+              <p class="cardTitle">Oddly Satisfying</p>
+              <p class="cardPostNo">6,541 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf03.jpg" />
+              <p class="cardTitle">Coffee</p>
+              <p class="cardPostNo">9,152 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf04.jpg" />
+              <p class="cardTitle">Staff Picks</p>
+              <p class="cardPostNo">6,520 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf05.png" />
+              <p class="cardTitle">Gaming</p>
+              <p class="cardPostNo">297,513 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf06.jpg" />
+              <p class="cardTitle">Memes</p>
+              <p class="cardPostNo">566,934 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf07.jpg" />
+              <p class="cardTitle">Clean Your Desk</p>
+              <p class="cardPostNo">529 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf08.png" />
+              <p class="cardTitle">Funny</p>
+              <p class="cardPostNo">2,696,269 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf09.png" />
+              <p class="cardTitle">Aww</p>
+              <p class="cardPostNo">763,393 Posts</p>
+            </div>
+            <div>
+              <img src="images/sadf10.jpg" />
+              <p class="cardTitle">Oc</p>
+              <p class="cardPostNo">39,123 Posts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="imgurPosts">
+        <div id="postParent1"></div>
+        <div id="postParent2"></div>
+        <div id="postParent3"></div>
+        <div id="postParent4"></div>
+        <div id="postParent5"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/index.js"></script>
+</html>

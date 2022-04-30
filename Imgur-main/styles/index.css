@@ -1,0 +1,251 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+#navbar {
+  height: 65px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 2;
+}
+#navbar > div:nth-child(1) {
+  flex-basis: 140px;
+  margin-top: 15px;
+}
+#navbar > div:nth-child(2) {
+  margin-top: 12px;
+  flex-basis: 340px;
+}
+#navbar > div:nth-child(3) {
+  margin-top: 16px;
+  flex-basis: 400px;
+}
+#navbar > div:nth-child(4) {
+  margin-top: 16px;
+  flex-basis: 30px;
+  margin-left: -5px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #46446a;
+}
+.searchicon {
+  padding-top: 2px;
+  color: white;
+  cursor: pointer;
+}
+#navbar > div:nth-child(5) {
+  flex-basis: 150px;
+  padding-left: 50px;
+  margin-top: 12px;
+}
+#navbar > div:nth-child(5) > button {
+  background-color: #6432f9;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 3px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+#navbar > div:nth-child(6) {
+  flex-basis: 40px;
+}
+#navbar > div:nth-child(7) {
+  flex-basis: 40px;
+}
+#navbar > div:nth-child(8) {
+  flex-basis: 70px;
+}
+#navbar > div:nth-child(9) {
+  flex-basis: 150px;
+  color: white;
+  margin-top: 5px;
+  font-weight: 500;
+}
+#navbar > div:nth-child(10) {
+  flex-basis: 70px;
+  color: white;
+}
+.usericon {
+  font-size: 32px;
+  margin-top: 14px;
+}
+.navicons {
+  font-size: 32px;
+  color: white;
+  margin-top: 14px;
+}
+#newpostbtn {
+  background-color: #2eb76e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+}
+.newposttext {
+  position: relative;
+  top: -6px;
+  font-weight: 600;
+}
+.inputnavbar {
+  width: 450px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #46446a;
+  color: white;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.inputnavbar::placeholder {
+  color: #9593a9;
+  font-weight: 600;
+}
+#cardsexplore {
+  background-image: url("../images/top_img.png");
+  height: 400px;
+  background-size: cover;
+  margin: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -335px;
+}
+#cardsexplore > div > h2 {
+  margin: 0;
+  color: #aed8ea;
+  padding-top: 65px;
+  text-align: center;
+}
+#imgurlogo > img {
+  width: 100px;
+}
+#cardsDiv {
+  width: 85%;
+  margin: auto;
+}
+#tagstop {
+  display: flex;
+  color: white;
+}
+#tagstop > div:nth-child(1) {
+  flex-basis: 50%;
+}
+#tagstop > div:nth-child(2) {
+  flex-basis: 50%;
+}
+#tagstop > div:nth-child(2) > h3 {
+  text-align: end;
+}
+#subcarddiv {
+  display: flex;
+  gap: 10px;
+}
+#subcarddiv > div > img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 3px 3px 0px 0px;
+}
+#subcarddiv > div {
+  flex-basis: 10%;
+  border-radius: 3px;
+  position: relative;
+  top: 0px;
+  transition: all 0.25s ease-out;
+}
+#subcarddiv > div:hover {
+  top: -4px;
+  cursor: pointer;
+}
+#subcarddiv > div:nth-child(1) {
+  background-color: #4170b5;
+}
+#subcarddiv > div:nth-child(2) {
+  background-color: #5e58cb;
+}
+#subcarddiv > div:nth-child(3) {
+  background-color: #383c64;
+}
+#subcarddiv > div:nth-child(4) {
+  background-color: #132d31;
+}
+#subcarddiv > div:nth-child(5) {
+  background-color: #2b1a5a;
+}
+#subcarddiv > div:nth-child(6) {
+  background-color: #ba519f;
+}
+#subcarddiv > div:nth-child(7) {
+  background-color: #328d67;
+}
+#subcarddiv > div:nth-child(8) {
+  background-color: #633875;
+}
+#subcarddiv > div:nth-child(9) {
+  background-color: #6ccbdb;
+}
+#subcarddiv > div:nth-child(10) {
+  background-color: #be7dd1;
+}
+.cardTitle {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+}
+.cardPostNo {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #9c9eb2;
+}
+
+#imgurPosts {
+  display: flex;
+  padding-top: 50px;
+  background-color: #2e3035;
+  margin: auto;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+#imgurPosts > div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 18%;
+}
+#imgurPosts > div > div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  color: white;
+  background-color: #474a52;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#imgurPosts > div > div:hover {
+  background-color: #707480;
+}
+#imgurPosts > div > div > div > img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+#imgurPosts > div > div > div:nth-child(2) {
+  padding: 10px;
+}
